@@ -40,7 +40,7 @@ export function HeroChiclet() {
 
         {/* Skewed Display Title */}
         <h1 className="skew-heading font-black tracking-tight uppercase text-3xl sm:text-4xl md:text-6xl/tight text-white mb-4 sm:mb-6 flex flex-col gap-1 sm:gap-2">
-          <span className="text-2xl sm:text-3xl md:text-5xl opacity-90">Hey, I'm</span>
+          <span className="text-2xl sm:text-3xl md:text-5xl opacity-90">Hey, I&apos;m</span>
           <span className="underline decoration-pink-400 decoration-wavy decoration-2 underline-offset-4 sm:underline-offset-8 text-4xl sm:text-5xl md:text-7xl/tight">{PERSONAL_INFO.name}</span>
         </h1>
 

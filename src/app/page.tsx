@@ -25,8 +25,6 @@ export default function PortfolioHome() {
 
   const roverProject = PROJECTS.find((p) => p.id === "ai-disaster-rover") || PROJECTS[0];
   const dbmsProject = PROJECTS.find((p) => p.id === "dbms-sql-platform") || PROJECTS[1];
-  const uiuxProject = PROJECTS.find((p) => p.id === "uiux-canva-design-studio") || PROJECTS[2];
-  const dsaProject = PROJECTS.find((p) => p.id === "dsa-algorithms-suite") || PROJECTS[3];
 
   return (
     <div id="home" className="relative min-h-screen selection:bg-pink-500 selection:text-white pb-12">
